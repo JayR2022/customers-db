@@ -8,6 +8,7 @@ public class Main {
 		customers customer2 = new customers("Charles","Dickens",55);
 		System.out.println("Customer1 is: " +customer1.getfName()+customer1.getlName()+" Age is "+customer1.getAge());
 		System.out.println("No of customers in db  "+customers.getNoOfCustomers());
+		System.out.println("Company Name: "+customers.getCompanyname());
 	}
 
 }

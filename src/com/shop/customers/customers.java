@@ -5,6 +5,7 @@ public class customers {
 	private String lName;
 	private int age;
 	private static int noOfCustomers = 0;
+	private static final String companyName = "QA Community";
 	
 	public customers() {
 		
@@ -43,6 +44,10 @@ public class customers {
 
 	public void setAge(int age) {
 		this.age = age;
+	}
+
+	public static String getCompanyname() {
+		return companyName;
 	}
 	
 	
